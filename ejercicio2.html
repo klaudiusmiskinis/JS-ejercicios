@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="ejercicio2.css">
+    <title>Ejercicio 2</title>
+</head>
+<body id="body" style="background-color: grey;">
+    <div id="wrapper">
+    <div id="container" class="cont-one">
+        <div id="inside">
+            <div id="square" class="uno" onmouseover="cUno()" onmouseout="gris()">1</div>
+            <div id="square" class="dos" onmouseover="cDos()" onmouseout="gris()">2</div>
+            <div id="square" class="tres" onmouseover="cTres()" onmouseout="gris()">3</div>
+            <div id="square" class="cuatro" onmouseover="cCuatro()" onmouseout="gris()">4</div>
+            <div id="square" class="cinco" onmouseover="cCinco()" onmouseout="gris()">5</div>
+        </div>
+    </div>
+        <div id="container" class="cont-two">
+            <div class="centro">
+                <label for="pesetas">PESETAS</label>
+                <input id="pesetas" type="number" step="any" min="0" max="99999999999" value="0" oninput="cargarPes()">
+            </div>
+            <div class="centro">
+                <label for="euros">EUROS</label>
+                <input id="euros" type="number" step="any" min="0" max="99999999999" value="0" oninput="cargarEur()">
+            <div class="centro">
+                <button onclick="borrar()">BORRAR</button>
+            </div>
+            </div>
+        </div>
+        <div id="container" class="cont-three">
+            <div class="centro">
+                <label for="usuario">Usuario</label>
+                <input type="text" required id="user">
+            </div>
+            <div class="centro">
+                <label for="password">Contraseña</label>
+                <input type="text" required id="pass">
+            <div class="centro">
+                <button class="verificar" onclick="verificar()">VERIFICAR</button>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="ejercicio2.js"></script>
+</body>
+</html>
