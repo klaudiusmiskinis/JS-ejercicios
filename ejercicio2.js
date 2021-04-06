@@ -60,17 +60,21 @@ function cargarPes(){
 let user;
 let pass;
 
-const div = document.createElement('div');
-let capa = document.getElementsByClassName('verificar');
-capa.appendChild(div);
-
 function verificar() {
     user = document.getElementById('user').value;
     pass = document.getElementById('pass').value;
     
 
     //EL USUARIO DEBE SER 'ejdos' y la contraseña 'hecho'.
-    if (user == 'ejdos'){
-
+    if (user == 'ejdos') {
+        document.getElementById('valido_u').innerHTML = '✔';
+    } else {
+        document.getElementById('valido_u').innerHTML = 'X';
     }
-}
+
+    if (pass == 'hecho') {
+        document.getElementById('valido_p').innerHTML = '✔';
+    } else {
+        document.getElementById('valido_p').innerHTML = 'X';
+    }
+} 
