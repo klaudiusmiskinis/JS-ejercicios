@@ -1,0 +1,118 @@
+body {
+    background-color: grey;
+    transition: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+#container {
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+#inside {
+    margin-left: 10px;
+    display: flex;
+    transition: 1s;
+}
+
+.cont-one {
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.cont-two {
+    margin: 0px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.cont-three {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+button {
+    outline: none;
+    background-color: transparent;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+label {
+    margin: 5px;
+    transition: 1s;
+}
+
+input {
+    margin: 5px;
+    outline: none;
+    text-align: center;
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: 1s;
+}
+
+#centro {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+}
+
+
+
+#square {
+    margin: 20px;
+    border-radius: 2px;
+    padding: 21px;
+    transition: 1s;
+    border: 1px solid transparent;
+    transition: 1s;
+}
+
+#square:hover {
+    transition: 1s;
+    border: grey 0.1px solid;
+    
+}
+
+.uno {
+    background-color: tomato;
+}
+
+.dos {
+    background-color: thistle;
+}
+
+.tres {
+    background-color: violet;
+}
+
+.cuatro {
+    background-color: yellow;
+}
+
+.cinco {
+    background-color: yellowgreen;
+}
