@@ -1,13 +1,28 @@
 
 let a = document.getElementById('cUno');
-let b = document.getElementById('cTres');
+let b = document.getElementById('cDos');
+let c = document.getElementById('cTres');
 
-function esconder( ){
-        a.style.display = "none";
-        b.style.display = "none";
+function esconderUno( ){
+    a.style.display = "none";
 }
 
-function ver() {
-        a.style.display = "block";
-        b.style.display = "block";
+function esconderDos( ){
+    b.style.display = "none";
+}
+
+function esconderTres( ){
+    c.style.display = "none";
+}
+
+function verUno() {
+    a.style.display = "block";
+}
+
+function verDos() {
+    b.style.display = "block";
+}
+
+function verTres() {
+    c.style.display = "block";
 }
