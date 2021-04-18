@@ -1,0 +1,23 @@
+html {
+    margin: 0px;
+    height: 99.8%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    display: block;
+    background-color: rgb(31, 31, 31);
+    border: 1px solid black;
+    min-height: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+#square {
+  position:absolute;
+  transform:translate(-50%,-50%);
+  height:35px;
+  width:35px;
+  border:2px solid white;
+}
