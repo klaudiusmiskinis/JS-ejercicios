@@ -1,0 +1,28 @@
+.btn-close:focus, .btn-primary, .form-control:focus, #modoOscuro:focus {
+    box-shadow: none !important;
+}
+
+#modoOscuro {
+    border: 1px solid #1b1d1f;
+}
+
+#modoOscuro:focus{
+    filter: grayscale(100%);
+}
+
+#imagen-modo {
+    filter: grayscale(0%) !important;
+}
+
+::-webkit-scrollbar{
+    background-color: var(--oscuro);
+    width: 8px;
+    transition: 1s;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    transition: 1s;
+    border-radius: 10px;
+}
+

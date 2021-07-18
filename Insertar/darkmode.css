@@ -1,0 +1,47 @@
+:root {
+    --oscuro: #1b1d1f;
+  }
+
+body {
+    background-color: var(--oscuro) !important;
+    color: #fff !important;
+}
+
+.cerrar {
+    filter: invert(100);
+}
+
+.border {
+    border: 1px solid grey !important;
+}
+
+.form-control, .form-control:focus {
+    background-color: var(--oscuro) !important;
+    border: 1px solid grey !important;
+    color: #fff;
+}
+
+.btn-primary, .btn-outline-primary {
+    background-color: #fff;
+    color: var(--oscuro);
+    border: 1px solid transparent !important;
+}
+
+.navbar, .bg-body {
+    background-color: var(--oscuro) !important;
+}
+
+#modoOscuro{
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover, .btn-primary:focus, .btn-outline-primary:active {
+    background-color: var(--oscuro);
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover, .btn-primary:focus, .btn-outline-primary:active, #modoOscuro, .navbar, .bg-body, .form-control, .form-control:focus {
+    filter: grayscale(100%);
+}
